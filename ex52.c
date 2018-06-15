@@ -194,7 +194,7 @@ void alarmFunc (int sig){
             board.board[i][j] = ' ';
         }
     }
-    //initialize the board and player
+    //initialize the board
     for (i = 0; i <SIZE ; ++i) {
 
         for (j = 0; j < SIZE; ++j) {
